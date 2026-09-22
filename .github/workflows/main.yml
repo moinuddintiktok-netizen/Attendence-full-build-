@@ -21,7 +21,7 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip setuptools wheel
-        pip install opencv-python face_recognition pandas openpyxl python-docx pyinstaller
+        pip install pandas openpyxl python-docx pyinstaller
 
     - name: Build Executable with PyInstaller
       run: |
